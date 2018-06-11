@@ -1,10 +1,10 @@
   There are many different aspects to the design of this skill. The different intents 
 and the slots are used to determine the correct response to anything a user talls Alexa. 
 The invocation name of this skill is Earthquake Probability. This name will be easy to 
-to remember what the skill does in comparison to many other invation names you may need
+to remember what the skill does in comparison to many other invocation names you may need
 to remember. 
 
-  After crreating the invocation name I created three diffetent intents that will be needed
+  After creating the invocation name I created three different intents that will be needed
 for the skill to run correctly. These three intents used are introintent, list_states, and 
 choose_states. The introintent has the purpose of asking the initial question when the user
 opens the skill and starts the conversation. 
