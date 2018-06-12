@@ -25,3 +25,8 @@ position to retrieve the risk value from the risk array. If the user's response 
 Alexa will respond to the user tht their said state is not a valid state and asks them for 
 another one. If the state is found in the array, Alexa will respond by saying the states name
 and the risk of an earthquake happening. 
+
+  I also used one slot in this skill. The slot was called state. This slot was used as the
+utterance that called for the choose_state intent to be used. This allows the user to answer
+with something that is not a state: however, the lambda function can determine if it is not
+valid state and request the user to say a real U.S. state. 
