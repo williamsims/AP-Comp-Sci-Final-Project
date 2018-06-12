@@ -17,8 +17,8 @@ they can choose from. The user can respond with phrases including "list the stat
 "tell me all the states". These phrases will prompt Alexa to list all of the states
 you can choose from and allow you to answer back with the name of a state. The user
 can also skip the step of listing the states and just say the name of a state. If
-you respond with something that is not a U.S. state, Alexa will ask you to respond 
-with valid state name. 
+you respond with something that is not a U.S. state, Alexa will tell you that what
+you said is not a valid state and ask you to respond with a real U.S. state. 
 
     After naming a state Alexa will respond with the its risk of an earthquake.
 The format of her response will look like:
