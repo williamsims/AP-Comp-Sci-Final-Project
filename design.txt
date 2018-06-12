@@ -13,3 +13,15 @@ opens the skill and starts the conversation.
 choose from to learn their risk of an Earthquake. When Alexa hears the user say one of the
 sample utterances, the corresponding function in the lambda code will run. The code takes 
 the entire states array and uses a for loop to list all of the states for the user to hear. 
+
+  The choose_states intent is when the sure responds with a state, valid or not. When Alexa
+hears a response that is not a utterance for the list_states or intro intent intents, the 
+choose_states intent is used. In the lambda function there are two possible responses for
+this intent. Alexa will wither tell the user the correct risk of an earthquake for the said
+state or tell the user that their response is not a valid state and listens for a valid one. 
+The lambda function stores the user's response in a variable and users a for loop to go through
+the states array find the position of the state the user stated. Then the function uses that 
+position to retrieve the risk value from the risk array. If the user's response is not found 
+Alexa will respond to the user tht their said state is not a valid state and asks them for 
+another one. If the state is found in the array, Alexa will respond by saying the states name
+and the risk of an earthquake happening. 
