@@ -35,7 +35,7 @@ var handlers = {
       for(let i = 0; i < stateList.length; i++) {
           if(i < stateList.length - 1) {
             list += stateList[i] + ", ";
-          }
+          } 
           else {
             list += " and " + stateList[i];
           }
