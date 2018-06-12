@@ -1,4 +1,4 @@
-  There are many different aspects to the design of this skill. The different intents 
+There are many different aspects to the design of this skill. The different intents 
 and the slots are used to determine the correct response to anything a user talls Alexa. 
 The invocation name of this skill is Earthquake Probability. This name will be easy to 
 to remember what the skill does in comparison to many other invocation names you may need
@@ -22,7 +22,7 @@ state or tell the user that their response is not a valid state and listens for 
 The lambda function stores the user's response in a variable and users a for loop to go through
 the states array find the position of the state the user stated. Then the function uses that 
 position to retrieve the risk value from the risk array. If the user's response is not found 
-Alexa will respond to the user tht their said state is not a valid state and asks them for 
+Alexa will respond to the user that their said state is not a valid state and asks them for 
 another one. If the state is found in the array, Alexa will respond by saying the states name
 and the risk of an earthquake happening. 
 
@@ -30,3 +30,7 @@ and the risk of an earthquake happening.
 utterance that called for the choose_state intent to be used. This allows the user to answer
 with something that is not a state: however, the lambda function can determine if it is not
 valid state and request the user to say a real U.S. state. 
+
+  Ultimately, the three intents, one slot, and lambda function put togther make the skill run 
+flawlessly and provides the user with the correct risks by using for loops to go through arrays
+and extract the correct pieces of information. 
